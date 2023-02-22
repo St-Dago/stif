@@ -11,4 +11,7 @@ then
 else
   cp -r ~/storage/shared/Android/data/io.spck/files/$line ~/spck-repo
 fi 2> error
-done < ~/cpanel/repository/stif/bin/note
+done < ./bin/note
+
+# empty note 
+echo "This is just a note file" > ./bin/note
